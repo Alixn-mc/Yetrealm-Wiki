@@ -1,5 +1,7 @@
 # 贡献与维护
 
+本页是简版规范；完整更新流程见 [维护手册](maintenance-playbook.md)，页面结构可直接参考 [页面模板](page-templates.md)。
+
 ## 页面风格
 
 - 玩家攻略优先回答“去哪、带什么、打什么、得到什么”。
@@ -23,6 +25,7 @@
 
 ```bash
 pip install -r requirements.txt
+python tools/audit_wiki.py
 mkdocs build --strict
 ```
 

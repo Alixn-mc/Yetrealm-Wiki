@@ -4,6 +4,9 @@ cd /d "%~dp0.."
 echo [Yetrealm Wiki] Installing dependencies...
 python -m pip install -r requirements.txt
 if errorlevel 1 goto fail
+echo [Yetrealm Wiki] Auditing wiki content...
+python tools\audit_wiki.py
+if errorlevel 1 goto fail
 echo [Yetrealm Wiki] Building with mkdocs build --strict...
 python -m mkdocs build --strict
 if errorlevel 1 goto fail

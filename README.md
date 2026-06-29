@@ -34,6 +34,7 @@ mkdocs serve
 
 ```bash
 pip install -r requirements.txt
+python tools/audit_wiki.py
 mkdocs build --strict
 ```
 
@@ -55,4 +56,4 @@ tools/                        Local validation and optional publish helpers
 
 ## Maintenance
 
-When Yetrealm updates, update the Markdown files under `docs/`, then commit and push. GitHub Actions will rebuild the site automatically.
+When Yetrealm updates, start from `docs/reference/maintenance-playbook.md`, keep player-facing pages and reference pages in sync, then run the local validation command before committing. GitHub Actions will rebuild the site automatically after pushing to `main`.

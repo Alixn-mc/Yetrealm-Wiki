@@ -5,7 +5,7 @@
 | 物品 | 说明 |
 | --- | --- |
 | **未至之境：机制描述**<br><span class="yr-id">yetrealm:mechanics_guide</span> | 1. 幸运值现在增加吃时运方块与生物的额外掉落尝试，并提升经验倍率<br>2. 若伤害可被防御，会先减去(护甲韧性*0.25)<br>3. 溢出的暴击率造成更多伤害（详见神化属性）<br>4. 原版跳劈固定造成1.5倍伤害，不受暴击伤害加成<br>5. 伤害免疫会在最终伤害结算后直接扣减；<br>若扣减后小于等于0，则本次伤害完全无效<br>6. 玩家闪避率的有效上限为80%<br>7. 过量治疗生成的护盾最多堆到最大伤害吸收值<br>只按最大伤害吸收属性封顶，不再额外受最大生命值一半限制<br>8. 神化火焰伤害与冰霜伤害也会作用于投射物远程命中<br>适用于标记为投射物伤害、且能解析到发射者的弓、弩、三叉戟等远程武器<br>9. 优化了高移速下的跳跃手感<br>移速越高衰减越接近消失；飞行、鞘翅、骑乘、水中和攀爬状态不会触发<br>10. 铁砧取消40级过于昂贵限制<br>铁砧与附魔台消耗原始经验点<br>11. 饥饿值大于70%时会触发慢速自然回血 |
-| **宇宙魔方**<br><span class="yr-id">yetrealm:cosmic_cube</span> | 右键或按宇宙魔方快捷键打开无限空间终端。<br>自动模式：…<br>自动吸入：开启<br>自动吸入：关闭 |
+| **宇宙魔方**<br><span class="yr-id">yetrealm:cosmic_cube</span> | 右键或按宇宙魔方快捷键打开无限空间终端。<br>自动模式：关闭 / 吸入 / 补货 / 全自动<br>自动吸入：开启或关闭；全自动还会启用补货逻辑 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/item/ancient_teleporter.png" alt="">**远古传送器**<br><span class="yr-id">yetrealm:ancient_teleporter</span> | 功能物品 / 奖励容器 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/item/astral_teleporter.png" alt="">**星界传送器**<br><span class="yr-id">yetrealm:astral_teleporter</span> | 功能物品 / 奖励容器 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/item/elite_box_1.png" alt="">**一级精英礼盒**<br><span class="yr-id">yetrealm:elite_box_1</span> | 功能物品 / 奖励容器 |
@@ -27,7 +27,7 @@
 | <img class="yr-icon" src="../../assets/yetrealm/textures/item/raw_venison.png" alt="">**鹿肉**<br><span class="yr-id">yetrealm:raw_venison</span> | 食物 / 可食用资源 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/item/cooked_venison.png" alt="">**熟鹿肉**<br><span class="yr-id">yetrealm:cooked_venison</span> | 食物 / 可食用资源 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/item/ancient_tree_fruit.png" alt="">**古木果**<br><span class="yr-id">yetrealm:ancient_tree_fruit</span> | 食用后清除所有负面效果。 |
-| <img class="yr-icon" src="../../assets/yetrealm/textures/block/lucky_clover.png" alt="">**金色四叶草**<br><span class="yr-id">yetrealm:lucky_clover</span> | 小概率生成在主世界的地表，大量分布与远古的空岛中，食用永久增加幸运<br>使用上限：… 次（每次幸运 +…） |
+| <img class="yr-icon" src="../../assets/yetrealm/textures/block/lucky_clover.png" alt="">**金色四叶草**<br><span class="yr-id">yetrealm:lucky_clover</span> | 小概率生成在主世界的地表，大量分布与远古的空岛中，食用永久增加幸运<br>使用上限：3 次（每次幸运 +1） |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/block/abyss_lantern_frond.png" alt="">**深渊灯须藻**<br><span class="yr-id">yetrealm:abyss_lantern_frond</span> | 食物 / 可食用资源 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/block/tideblessing_anemone.png" alt="">**潮祝海葵**<br><span class="yr-id">yetrealm:tideblessing_anemone</span> | 食物 / 可食用资源 |
 | <img class="yr-icon" src="../../assets/yetrealm/textures/block/abyss_tendril.png" alt="">**深渊蔓枝**<br><span class="yr-id">yetrealm:abyss_tendril</span> | 食物 / 可食用资源 |

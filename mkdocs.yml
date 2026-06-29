@@ -98,4 +98,6 @@ nav:
       - 配置项: reference/config.md
       - ID 与数据包: reference/ids-datapacks.md
       - 命令: reference/commands.md
+      - 维护手册: reference/maintenance-playbook.md
+      - 页面模板: reference/page-templates.md
       - 贡献与维护: reference/contributing.md
