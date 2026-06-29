@@ -1,0 +1,27 @@
+:root {
+  --yr-gold: #f0c36a;
+  --yr-violet: #a78bfa;
+  --yr-blue: #67e8f9;
+}
+.md-typeset .yr-hero {
+  padding: 2.2rem 1.6rem;
+  border-radius: 1rem;
+  background: radial-gradient(circle at top left, rgba(103,232,249,.20), transparent 35%), radial-gradient(circle at bottom right, rgba(167,139,250,.22), transparent 40%), linear-gradient(135deg, rgba(14,23,48,.96), rgba(38,21,64,.96));
+  color: white;
+  margin-bottom: 1.4rem;
+  box-shadow: 0 1rem 2.4rem rgba(0,0,0,.18);
+}
+.md-typeset .yr-hero h1 { margin: 0 0 .4rem; color: white; font-weight: 800; }
+.md-typeset .yr-hero p { max-width: 48rem; font-size: 1.05rem; }
+.md-typeset .yr-badges { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1rem; }
+.md-typeset .yr-badge { border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.10); border-radius: 999px; padding: .25rem .65rem; font-size: .78rem; }
+.md-typeset .yr-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .8rem; margin: 1rem 0; }
+.md-typeset .yr-card { border: 1px solid var(--md-default-fg-color--lightest); border-radius: .85rem; padding: .85rem 1rem; background: var(--md-default-bg-color); box-shadow: 0 .25rem .8rem rgba(0,0,0,.05); }
+.md-typeset .yr-card h3 { margin-top: 0; }
+.md-typeset .yr-icon { width: 24px; height: 24px; image-rendering: pixelated; vertical-align: middle; margin-right: .35rem; object-fit: contain; }
+.md-typeset .yr-id { font-family: var(--md-code-font-family); font-size: .72rem; color: var(--md-default-fg-color--light); }
+.md-typeset .yr-pill { border-radius: 999px; padding: .12rem .48rem; background: var(--md-code-bg-color); font-size: .78rem; white-space: nowrap; }
+.md-typeset table:not([class]) { font-size: .78rem; }
+.md-typeset table:not([class]) td, .md-typeset table:not([class]) th { vertical-align: top; }
+.md-typeset .yr-stat { font-size: 1.8rem; font-weight: 800; line-height: 1; }
+.md-typeset .yr-muted { color: var(--md-default-fg-color--light); }

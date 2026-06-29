@@ -1,0 +1,101 @@
+site_name: Yetrealm Wiki
+site_description: Yetrealm 官方 Wiki：维度、Boss、装备、Curios 饰品、技能树与整合包配置
+site_author: Alixn / Yetrealm Wiki Team
+site_url: https://alixn-mc.github.io/Yetrealm-Wiki/
+repo_url: https://github.com/Alixn-mc/Yetrealm-Wiki
+repo_name: Alixn-mc/Yetrealm-Wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  logo: assets/yetrealm/textures/item/astral_keystone.png
+  favicon: assets/yetrealm/textures/item/astral_keystone.png
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 切换到暗色模式
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/yetrealm.css
+
+nav:
+  - 首页: index.md
+  - 入门:
+      - 概览: getting-started/overview.md
+      - 安装与依赖: getting-started/installation.md
+      - 生存开局路线: getting-started/progression.md
+  - 维度与探索:
+      - Ancient Universe: dimensions/ancient-universe.md
+      - Astral Realm: dimensions/astral-realm.md
+      - 传送门与星界信标: dimensions/portals.md
+      - 群系与世界生成: dimensions/biomes.md
+  - 系统:
+      - 世界难度: systems/world-difficulty.md
+      - 技能树: systems/skill-tree.md
+      - 精英怪与奖励盒: systems/elite-mobs.md
+      - Curios 饰品位: systems/curios.md
+      - Cosmic Cube: systems/cosmic-cube.md
+      - HUD、食物与经验: systems/hud-food.md
+  - 图鉴:
+      - 方块: catalog/blocks.md
+      - 物品与材料: catalog/items.md
+      - 装备与工具: catalog/equipment.md
+      - 饰品: catalog/accessories.md
+      - 生物与 Boss: catalog/entities.md
+      - 状态效果与属性: catalog/effects-attributes.md
+  - 攻略:
+      - Boss 战: guides/bosses.md
+      - 远古宇宙资源路线: guides/ancient-route.md
+      - 星界与终局路线: guides/endgame-route.md
+  - 参考:
+      - 进度: reference/advancements.md
+      - 配方索引: reference/recipes.md
+      - 战利品与掉落: reference/loot.md
+      - 配置项: reference/config.md
+      - ID 与数据包: reference/ids-datapacks.md
+      - 命令: reference/commands.md
+      - 贡献与维护: reference/contributing.md
