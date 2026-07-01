@@ -1,5 +1,5 @@
 site_name: Yetrealm Wiki
-site_description: Yetrealm 官方 Wiki：维度、Boss、装备、Curios 饰品、技能树与整合包配置
+site_description: "Yetrealm official bilingual Wiki: dimensions, bosses, gear, Curios accessories, Skill Tree, and modpack configuration"
 site_author: Alixn / Yetrealm Wiki Team
 site_url: https://alixn-mc.github.io/Yetrealm-Wiki/
 repo_url: https://github.com/Alixn-mc/Yetrealm-Wiki
@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  language: zh
+  language: en
   logo: assets/yetrealm/textures/item/astral_keystone.png
   favicon: assets/yetrealm/textures/item/astral_keystone.png
   palette:
@@ -17,13 +17,13 @@ theme:
       accent: cyan
       toggle:
         icon: material/weather-night
-        name: 切换到暗色模式
+        name: Switch to dark mode
     - scheme: slate
       primary: deep purple
       accent: cyan
       toggle:
         icon: material/weather-sunny
-        name: 切换到亮色模式
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -62,42 +62,91 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/yetrealm.css
 
+extra:
+  alternate:
+    - name: English
+      link: https://alixn-mc.github.io/Yetrealm-Wiki/
+      lang: en
+    - name: 中文
+      link: https://alixn-mc.github.io/Yetrealm-Wiki/zh/
+      lang: zh
+
 nav:
-  - 首页: index.md
-  - 入门:
-      - 概览: getting-started/overview.md
-      - 安装与依赖: getting-started/installation.md
-      - 生存开局路线: getting-started/progression.md
-  - 维度与探索:
-      - Ancient Universe: dimensions/ancient-universe.md
-      - Astral Realm: dimensions/astral-realm.md
-      - 传送门与星界信标: dimensions/portals.md
-      - 群系与世界生成: dimensions/biomes.md
-  - 系统:
-      - 世界难度: systems/world-difficulty.md
-      - 技能树: systems/skill-tree.md
-      - 精英怪与奖励盒: systems/elite-mobs.md
-      - Curios 饰品位: systems/curios.md
-      - Cosmic Cube: systems/cosmic-cube.md
-      - HUD、食物与经验: systems/hud-food.md
-  - 图鉴:
-      - 方块: catalog/blocks.md
-      - 物品与材料: catalog/items.md
-      - 装备与工具: catalog/equipment.md
-      - 饰品: catalog/accessories.md
-      - 生物与 Boss: catalog/entities.md
-      - 状态效果与属性: catalog/effects-attributes.md
-  - 攻略:
-      - Boss 战: guides/bosses.md
-      - 远古宇宙资源路线: guides/ancient-route.md
-      - 星界与终局路线: guides/endgame-route.md
-  - 参考:
-      - 进度: reference/advancements.md
-      - 配方索引: reference/recipes.md
-      - 战利品与掉落: reference/loot.md
-      - 配置项: reference/config.md
-      - ID 与数据包: reference/ids-datapacks.md
-      - 命令: reference/commands.md
-      - 维护手册: reference/maintenance-playbook.md
-      - 页面模板: reference/page-templates.md
-      - 贡献与维护: reference/contributing.md
+  - Home: index.md
+  - English:
+      - Getting Started:
+          - Overview: en/getting-started/overview.md
+          - Installation: en/getting-started/installation.md
+          - Progression Route: en/getting-started/progression.md
+      - Dimensions:
+          - Ancient Universe: en/dimensions/ancient-universe.md
+          - Astral Realm: en/dimensions/astral-realm.md
+          - Portals and Astral Beacon: en/dimensions/portals.md
+          - Biomes and Worldgen: en/dimensions/biomes.md
+      - Systems:
+          - World Difficulty: en/systems/world-difficulty.md
+          - Skill Tree: en/systems/skill-tree.md
+          - Elite Mobs and Reward Boxes: en/systems/elite-mobs.md
+          - Curios Slots: en/systems/curios.md
+          - Cosmic Cube: en/systems/cosmic-cube.md
+          - HUD, Food, and Experience: en/systems/hud-food.md
+      - Catalog:
+          - Blocks: en/catalog/blocks.md
+          - Items and Materials: en/catalog/items.md
+          - Gear and Tools: en/catalog/equipment.md
+          - Accessories: en/catalog/accessories.md
+          - Mobs and Bosses: en/catalog/entities.md
+          - Effects and Attributes: en/catalog/effects-attributes.md
+      - Guides:
+          - Boss Guide: en/guides/bosses.md
+          - Ancient Universe Resource Route: en/guides/ancient-route.md
+          - Astral and Endgame Route: en/guides/endgame-route.md
+      - Reference:
+          - Advancements: en/reference/advancements.md
+          - Recipe Index: en/reference/recipes.md
+          - Loot and Drops: en/reference/loot.md
+          - Config: en/reference/config.md
+          - IDs and Datapacks: en/reference/ids-datapacks.md
+          - Commands: en/reference/commands.md
+          - Maintenance Playbook: en/reference/maintenance-playbook.md
+          - Page Templates: en/reference/page-templates.md
+          - Contributing: en/reference/contributing.md
+  - 中文:
+      - 首页: zh/index.md
+      - 入门:
+          - 概览: zh/getting-started/overview.md
+          - 安装与依赖: zh/getting-started/installation.md
+          - 生存开局路线: zh/getting-started/progression.md
+      - 维度与探索:
+          - Ancient Universe: zh/dimensions/ancient-universe.md
+          - Astral Realm: zh/dimensions/astral-realm.md
+          - 传送门与星界信标: zh/dimensions/portals.md
+          - 群系与世界生成: zh/dimensions/biomes.md
+      - 系统:
+          - 世界难度: zh/systems/world-difficulty.md
+          - 技能树: zh/systems/skill-tree.md
+          - 精英怪与奖励盒: zh/systems/elite-mobs.md
+          - Curios 饰品位: zh/systems/curios.md
+          - Cosmic Cube: zh/systems/cosmic-cube.md
+          - HUD、食物与经验: zh/systems/hud-food.md
+      - 图鉴:
+          - 方块: zh/catalog/blocks.md
+          - 物品与材料: zh/catalog/items.md
+          - 装备与工具: zh/catalog/equipment.md
+          - 饰品: zh/catalog/accessories.md
+          - 生物与 Boss: zh/catalog/entities.md
+          - 状态效果与属性: zh/catalog/effects-attributes.md
+      - 攻略:
+          - Boss 战: zh/guides/bosses.md
+          - 远古宇宙资源路线: zh/guides/ancient-route.md
+          - 星界与终局路线: zh/guides/endgame-route.md
+      - 参考:
+          - 进度: zh/reference/advancements.md
+          - 配方索引: zh/reference/recipes.md
+          - 战利品与掉落: zh/reference/loot.md
+          - 配置项: zh/reference/config.md
+          - ID 与数据包: zh/reference/ids-datapacks.md
+          - 命令: zh/reference/commands.md
+          - 维护手册: zh/reference/maintenance-playbook.md
+          - 页面模板: zh/reference/page-templates.md
+          - 贡献与维护: zh/reference/contributing.md
